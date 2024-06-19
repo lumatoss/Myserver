@@ -1,0 +1,109 @@
+body {background-color: #0c1014;
+color: white;
+width: 100%;
+max-width: 960px;
+margin: 0 auto;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*-------------------------------------------------------*/
+
+.inicio-header {display: flex;
+text-align: center;
+background-color:#05080a;
+justify-content: space-between;
+padding: 16px;
+width: 80%;
+margin: auto;
+border-radius: 10px;
+
+}
+
+.inicio-h1 { font-size: 36px;
+    text-transform: uppercase;
+margin-left: 16px;
+letter-spacing: 2px;
+}
+
+.inicio-ul {display: flex;
+ gap: 5px;
+list-style-type:none;
+font-size: 20px;
+margin-top: 30px;}
+
+
+.inicio-a {text-decoration: none;
+color: white;
+padding: 14px;
+}
+
+.inicio-li .inicio-p {background-color: greenyellow;color: black; 
+text-decoration: none;
+padding: 14px;
+border-radius: 10px;
+pointer-events: none;}
+
+.inicio-a:hover {background-color: greenyellow;
+color: black;
+border-radius: 10px;}
+
+/*------------------------------------------------*/
+.card-card {
+    display: flex;
+    gap: 16px;
+     }
+    
+.card-h1 {display: flex;
+justify-content: center;
+color: white;
+margin-top: 30px;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 2px;
+text-transform: uppercase;}
+
+
+.card-div {display: flex;
+    flex-direction: column;
+    flex: 1;
+background-color: #1f262c;
+padding: 30px;
+border-radius: 6px;
+box-shadow: 0px 5px 10px black;
+height: 350px;
+
+}
+
+.card-h2 {text-transform: uppercase;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    background-color:#1f262c; ;
+border-bottom: 2px solid greenyellow;}
+
+
+
+.preço { font-size: 33px;}
+
+.card-ul {margin: 0px 0px 35px;
+color: #b5b5b5;
+padding-left: 15px;
+line-height: 1.8;
+flex-grow: 1;}
+.card-li::marker {color:  greenyellow;}
+
+
+.card-a {text-decoration: none;
+background-color: greenyellow;
+border-radius: 6px;
+color:  #1f262c;
+text-transform: uppercase;
+font-size: 16px;
+font-weight:bold ;
+padding: 10px;
+text-align: center;}
+
+a:hover {outline: 4px solid greenyellow;
+    color: white;
+    background-color: transparent;
+}
